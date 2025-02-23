@@ -21,8 +21,8 @@ def load_pickle(file_name):
     with open(file_name, "rb") as file:
         return pickle.load(file)
 
-model = load_pickle("trained_model6.pkl")
-scaler = load_pickle("scaler6.pkl")
+model = load_pickle("hello_world_check/trained_model6.pkl")
+scaler = load_pickle("hello_world_check/scaler6.pkl")
 
 # Title
 st.title("💤 Sleep Disorder Prediction App")
